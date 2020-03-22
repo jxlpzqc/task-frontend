@@ -1,0 +1,18 @@
+
+.user-bar {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.user-info-avator-img {
+	height: 100rpx;
+	width: 100rpx;
+	border: solid 1.5rpx #eee;
+	border-radius: 90rpx;
+	display: block;
+	overflow: hidden;
+}
+

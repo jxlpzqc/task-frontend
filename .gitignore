@@ -1,0 +1,9 @@
+# Weapp GitIgnore
+
+# Dependency directories
+node_modules/
+
+# Uniapp Unpackage
+unpackage/
+
+

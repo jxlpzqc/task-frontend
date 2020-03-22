@@ -1,0 +1,79 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页,
+		{
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "任务中心",
+				"enablePullDownRefresh": true
+
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "任务详情"
+			}
+		},
+		{
+			"path": "pages/withdraw/withdraw",
+			"style": {
+				"navigationBarTitleText": "提现"
+			}
+		}, {
+			"path": "pages/newtask/newtask",
+			"style": {
+				"navigationBarTitleText": "发布任务"
+			}
+		}, {
+			"path": "pages/withdraw/success",
+			"style": {}
+		}, {
+			"path": "pages/checkin/success",
+			"style": {}
+		}, {
+			"path": "pages/postadmin/postadmin",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "发布管理"
+			}
+		}, {
+			"path": "pages/children/children",
+			"style": {
+				"navigationBarTitleText": "我的下级用户"
+			}
+		}, {
+			"path": "pages/checkin/checkin",
+			"style": {}
+		}
+	],
+	"tabBar": {
+		"color": "#7a7e83",
+		"selectedColor": "#0faeff",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/main/main",
+			"text": "首页",
+			"iconPath": "static/img/home.png",
+			"selectedIconPath": "static/img/homeHL.png"
+		}, {
+			"pagePath": "pages/user/user",
+			"text": "我的",
+			"iconPath": "static/img/user.png",
+			"selectedIconPath": "static/img/userHL.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#0faeff",
+		"backgroundColor": "#fbf9fe"
+	}
+}
